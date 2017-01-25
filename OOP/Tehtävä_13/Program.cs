@@ -8,6 +8,7 @@ namespace Tehtävä_13
 {
             class Program
         {
+        // EI HYVÄ
             static void Main(string[] args)
             {
                 List<int> pisteet = new List<int>();
