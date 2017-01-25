@@ -10,7 +10,7 @@ namespace Tehtävä_2
     {
         static void Main(string[] args)
         {
-
+        // VALMIS
             Console.WriteLine("Anna pistemäärä");
             int number = int.Parse(Console.ReadLine());
             if (number <= 1)
