@@ -10,6 +10,7 @@ namespace Tehtävä_15
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
