@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tehtävä_1
 {
+// VALMIS
     class Program
     {
         static void Main(string[] args)
