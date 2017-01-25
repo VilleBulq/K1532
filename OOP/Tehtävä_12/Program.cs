@@ -11,24 +11,27 @@ namespace Tehtävä_12
         static void Main(string[] args)
         {
 
-            List<int> lista = new List<int>();
-            int i = 0;
-            while (i < 5)
-            {
-                Console.WriteLine("Anna luku >");
-                int add = Int32.Parse(Console.ReadLine());
-                lista.Add(add);
-                i++;
-                Console.WriteLine("\n");
+            int[] lista = new int[5];
+            
+            for(int i = 0; i < lista.Length; i++) {
+                Console.WriteLine("Anna luku: ");
+                int num = Int32.Parse(Console.ReadLine());
+                lista[i] = num;
+               
+            }
+            int pituus = lista.Length;
+            Console.WriteLine("Pituus : " + pituus);
+            int[] temp = new int[5];
+            for (int j = 0; j < lista.Length; j++) {
+                temp[j] = lista[pituus-1];
+                pituus = pituus - 1;
 
             }
-
-            int size = lista.Count;
-            for (int j = 0; j < lista.Count; j++)
-            {
-                Console.WriteLine(lista[size - 1]);
-                size = size - 1;
+            foreach(int n in lista) {
+                Console.WriteLine("Luku" + n);
             }
+         
+
 
         }
     }
