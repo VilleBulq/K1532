@@ -10,24 +10,25 @@ namespace Tehtävä_17
     {
         static void Main(string[] args)
         {
-            int[] luvut = { 4, 2, 3, 4, 5 };
-            int[] luvut2 = { 5, 4, 5, 6, 7 };
-            int[] jarjes = new int[9];
-            for (int i = 0; i < 5; i++)
+           
+            int[] table1 = { 10, 20, 30, 40, 50 };
+            int[] table2 = { 5, 15, 25, 35, 45 };
+            int[] table3 = new int[table1.Length];
+            for (int x = 0; x < table1.Length; x++)
             {
-                jarjes[i] = luvut[i];
+                foreach (int i in table1)
+                {
+                    foreach (int l in table2)
+                    {
+                        if (i < l) { table3[x] = i; }
+                        else { table3[x] = l; }
+                    }
+                }
             }
-            for (int i = 6; i < 9; i++)
+            foreach (int value in table3)
             {
-                jarjes[i] = luvut2[i];
-            }
-            for (int i = 0; i < 9; i++)
-            {
-                Console.WriteLine(jarjes[i]);
+                Console.WriteLine(value);
             }
         }
-
-
-
     }
 }

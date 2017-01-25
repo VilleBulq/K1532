@@ -10,6 +10,8 @@ namespace Tehtävä_18
     {
         static void Main(string[] args)
         {
+        // KAIKKIEN RIVIEN OLTAVA OK ETTÄ ON PALIDROMI :DD 
+        // TÄÄ on aikamoinen viritys
             Console.WriteLine("Anna sana");
             string lause = Console.ReadLine();
             int pituus = lause.Length;
