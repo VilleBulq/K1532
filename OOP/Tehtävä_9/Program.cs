@@ -14,6 +14,7 @@ namespace Tehtävä_9
             int summa = 0;
             while (luku)
             {
+            // SUMMARI :D
                 Console.WriteLine("Anna luku > ");
                 int kysy = Int32.Parse(Console.ReadLine());
                 if (kysy == 0)
