@@ -10,7 +10,7 @@ namespace Tehtävä_11
     {
         static void Main(string[] args)
         {
-
+        // FOR SHITTI
             int i, k;
             int luku;
             Console.WriteLine("Anna luku:");
