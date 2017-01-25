@@ -12,6 +12,7 @@ namespace Tehtävä_7
         {
             while (true)
             {
+            // KARKAUSVUOSI
                 Console.WriteLine("Anna vuosi >");
                 int vuosi = Int32.Parse(Console.ReadLine());
                 if (vuosi % 4 == 0)
