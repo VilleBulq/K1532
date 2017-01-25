@@ -12,6 +12,7 @@ namespace Tehtävä_8
         {
             while (true)
             {
+            // KOLME LUKUA :D
                 Console.WriteLine("Anna 3 luku >");
                 int num_1 = Int32.Parse(Console.ReadLine());
                 int num_2 = Int32.Parse(Console.ReadLine());
