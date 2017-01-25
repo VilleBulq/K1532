@@ -33,11 +33,11 @@ namespace Tehtävä_19
         }
         static void TarkistaSanasta(string arvaus, string sana)
         {
-            for (int i = 0; i < sana.Length; i++)
+            for (int i = 0; i < sana.Length-1; i++)
             {
                 if (arvaus[i] == sana[i])
                 {
-
+                    Console.Write("Arvattu" + arvaus[i]);
                 }
             }
         }

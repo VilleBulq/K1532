@@ -10,25 +10,20 @@ namespace Tehtävä_17
     {
         static void Main(string[] args)
         {
-           
+
             int[] table1 = { 10, 20, 30, 40, 50 };
             int[] table2 = { 5, 15, 25, 35, 45 };
-            int[] table3 = new int[table1.Length];
-            for (int x = 0; x < table1.Length; x++)
-            {
-                foreach (int i in table1)
-                {
-                    foreach (int l in table2)
-                    {
-                        if (i < l) { table3[x] = i; }
-                        else { table3[x] = l; }
-                    }
-                }
+            int[] uusitaulukko = new int[table1.Length + table2.Length];
+            Array.Copy(table1, uusitaulukko, table1.Length);
+            Array.Copy(table2, 0, uusitaulukko, table1.Length, table2.Length);
+            Array.Sort(uusitaulukko);
+
+            foreach (int l in uusitaulukko) {
+                Console.Write(l+ " ");
             }
-            foreach (int value in table3)
-            {
-                Console.WriteLine(value);
-            }
+
         }
     }
-}
+    }
+
+  
