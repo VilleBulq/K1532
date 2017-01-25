@@ -12,27 +12,29 @@ namespace Tehtävä_12
         {
 
             int[] lista = new int[5];
-            
-            for(int i = 0; i < lista.Length; i++) {
+            for (int i = 0; i < lista.Length; i++)
+            {
                 Console.WriteLine("Anna luku: ");
                 int num = Int32.Parse(Console.ReadLine());
                 lista[i] = num;
-               
-            }
-            int pituus = lista.Length;
-            Console.WriteLine("Pituus : " + pituus);
-            int[] temp = new int[5];
-            for (int j = 0; j < lista.Length; j++) {
-                temp[j] = lista[pituus-1];
-                pituus = pituus - 1;
 
             }
-            foreach(int n in lista) {
-                Console.WriteLine("Luku" + n);
+
+            for (int i = 0; i < lista.Length / 2; i++)
+            {
+                int temp = lista[i];
+                lista[i] = lista[lista.Length - i - 1];
+                lista[lista.Length - i - 1] = temp;
             }
-         
+            // Tulostus allekain
+            foreach (int n in lista)
+            {
+                Console.Write(n + " ");
+            }
 
 
+
+            }
         }
     }
-}
+

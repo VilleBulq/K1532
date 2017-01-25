@@ -21,13 +21,9 @@ namespace Tehtävä_13
                 int suurin = pisteet.Max();
                 int tulos = pisteet.Sum();
                 int kaikki = tulos - pienin - suurin;
-
                 Console.WriteLine(kaikki);
 
             }
         }
     }
 
-}
-    }
-}
