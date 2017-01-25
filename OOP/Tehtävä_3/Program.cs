@@ -10,6 +10,7 @@ namespace Tehtävä_3
         {
             static void Main(string[] args)
             {
+
                 // Tee ohjelma, joka kysyy käyttäjältä kolme lukua ja tulostaa niiden summan ja keskiarvon. 
                 int luku1, luku2, luku3;
                 Console.WriteLine("Anna 3 lukua:");
