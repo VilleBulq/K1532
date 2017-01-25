@@ -10,6 +10,7 @@ namespace Tehtävä_10
     {
         static void Main(string[] args)
         {
+        // HEPPPARI
             int[] heppi = new int[] { 1, 2, 33, 44, 55, 68, 77, 96, 100 };
             foreach(int pari in heppi) {
             if(pari % 2 == 0) {
