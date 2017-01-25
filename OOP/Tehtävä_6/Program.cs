@@ -11,6 +11,7 @@ namespace Tehtävä_6
         static void Main(string[] args)
         {
             // 7.02 Litraa / 100km
+
             double auton_kulutus = 7.02;
             Console.WriteLine("Anna matka >");
             int matka = Int32.Parse(Console.ReadLine());
