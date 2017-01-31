@@ -48,6 +48,7 @@ static void Main(string[] args)
         else if (z == 8) { table3[z + 1] = table1[z - 4]; }
         else { table3[z + 1] = table1[z + 1]; }
     }
+    //e
 
 
 
