@@ -4,17 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Washing
+namespace WashingMachine
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Washing pesukone = new Washing();
+            WashingMachine pesukone = new WashingMachine();
             pesukone.TurnOn();
             pesukone.ShowStatus();
-            pesukone.SetProgram("Puuvilla");
+            pesukone.SetRPM(1200);
+            pesukone.SetTemperature(50);
             pesukone.ShowStatus();
+            
+         
         }
     }
 }

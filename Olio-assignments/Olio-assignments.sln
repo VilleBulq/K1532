@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop_Teht_4", "Oop_Teht_4\Oo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop_Teht_5", "Oop_Teht_5\Oop_Teht_5.csproj", "{1FC83E17-1592-4D37-AC37-2F3F555BFB51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oop_Teht_6", "Oop_Teht_6\Oop_Teht_6.csproj", "{54E4FD8E-C8AD-4940-BBEF-4C0A2F341C1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1FC83E17-1592-4D37-AC37-2F3F555BFB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC83E17-1592-4D37-AC37-2F3F555BFB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC83E17-1592-4D37-AC37-2F3F555BFB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E4FD8E-C8AD-4940-BBEF-4C0A2F341C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E4FD8E-C8AD-4940-BBEF-4C0A2F341C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E4FD8E-C8AD-4940-BBEF-4C0A2F341C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E4FD8E-C8AD-4940-BBEF-4C0A2F341C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
