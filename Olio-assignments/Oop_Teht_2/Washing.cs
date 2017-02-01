@@ -26,6 +26,11 @@ namespace WashingMachine
             Operating = false;
     }
     public void TurnOn() { IsOn = true;}
+        public void TurnOff()
+        {
+            IsOn = false;
+            Operating = false;
+        }
     public void TurnWater() { IsWaterOn = true; }
     public void OpenDoor() { IsDoorOpen = true; }
     public void SetProgram(string value) { WashingProgram = value; }
